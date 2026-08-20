@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Monitoring PSR PTPN IV",
+  "description": "Dashboard Eksekutif Monitoring Program Peremajaan Sawit Rakyat (PSR) PTPN IV PalmCo - Real-time tracking Rekomtek, Pencairan Dana BPDPKS, Luas Tanam, Kemitraan KUD/Gapoktan, dan Sebaran Spasial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
