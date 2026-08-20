@@ -40,7 +40,7 @@ const DashboardContent: React.FC = () => {
   };
 
   return (
-    <div className="flex h-screen w-screen overflow-hidden bg-slate-100/70 dark:bg-slate-950 font-sans text-slate-900 dark:text-slate-100 antialiased">
+    <div className="flex h-screen w-screen overflow-hidden bg-slate-100/70 dark:bg-slate-950 font-sans text-slate-900 dark:text-slate-100 antialiased print:block print:h-auto print:w-full print:overflow-visible print:bg-white">
       {/* 1. Main Navigation Sidebar with Minimize/Expand support */}
       <Sidebar 
         isOpen={isSidebarOpen} 
@@ -48,7 +48,7 @@ const DashboardContent: React.FC = () => {
       />
 
       {/* 2. Main Content Canvas */}
-      <div className="flex-1 flex flex-col h-full overflow-hidden min-w-0">
+      <div className="flex-1 flex flex-col h-full overflow-hidden min-w-0 print:block print:h-auto print:overflow-visible">
         {/* Top Header Bar */}
         <Topbar 
           isSidebarOpen={isSidebarOpen}
@@ -56,22 +56,24 @@ const DashboardContent: React.FC = () => {
         />
 
         {/* Scrollable View Area */}
-        <main className="flex-1 overflow-y-auto px-4 sm:px-6 py-5 bg-slate-50/50 dark:bg-slate-950">
-          <div className="max-w-7xl mx-auto">
+        <main className="flex-1 overflow-y-auto px-4 sm:px-6 py-5 bg-slate-50/50 dark:bg-slate-950 print:block print:h-auto print:overflow-visible print:p-0 print:m-0 print:bg-transparent">
+          <div className="max-w-7xl mx-auto print:max-w-full print:w-full">
             {renderActiveView()}
           </div>
         </main>
       </div>
 
       {/* 3. Global Interactive Modals */}
-      <KudDetailModal />
-      <KudFormModal />
-      <GoogleSheetsSyncModal />
-      <ExportReportModal />
+      <div className="print:hidden">
+        <KudDetailModal />
+        <KudFormModal />
+        <GoogleSheetsSyncModal />
+        <ExportReportModal />
+      </div>
 
       {/* 4. Global Toast Notification Banner */}
       {toastMessage && (
-        <div className="fixed bottom-5 right-5 z-50 bg-slate-900 text-white dark:bg-emerald-950 dark:text-emerald-100 dark:border dark:border-emerald-800 px-4 py-2.5 rounded-xl shadow-2xl flex items-center gap-2.5 text-xs font-semibold animate-in slide-in-from-bottom-5 duration-200">
+        <div className="fixed bottom-5 right-5 z-50 bg-slate-900 text-white dark:bg-emerald-950 dark:text-emerald-100 dark:border dark:border-emerald-800 px-4 py-2.5 rounded-xl shadow-2xl flex items-center gap-2.5 text-xs font-semibold animate-in slide-in-from-bottom-5 duration-200 print:hidden">
           <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
           <span>{toastMessage}</span>
         </div>

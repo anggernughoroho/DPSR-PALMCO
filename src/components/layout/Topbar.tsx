@@ -57,7 +57,7 @@ export const Topbar: React.FC<TopbarProps> = ({ isSidebarOpen = true, onToggleSi
   ];
 
   return (
-    <header className="h-14 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 px-4 sm:px-6 flex items-center justify-between z-30 shrink-0">
+    <header className="h-14 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 px-4 sm:px-6 flex items-center justify-between z-30 shrink-0 print:hidden">
       {/* Left: Sidebar Toggle & Section Title */}
       <div className="flex items-center gap-2.5 sm:gap-3">
         <button

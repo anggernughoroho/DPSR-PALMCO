@@ -21,6 +21,7 @@ export const ExportReportModal: React.FC = () => {
     kudList, 
     kpiMetrics, 
     activeRole,
+    setActiveTab,
     showNotification
   } = usePsr();
 
@@ -113,9 +114,10 @@ export const ExportReportModal: React.FC = () => {
 
   const handlePrint = () => {
     setIsExportModalOpen(false);
+    setActiveTab('reports');
     setTimeout(() => {
       window.print();
-    }, 200);
+    }, 400);
   };
 
   return (

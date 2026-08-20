@@ -70,6 +70,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
           bg-emerald-900 border-r border-emerald-800 
           flex flex-col h-full 
           transition-all duration-300 ease-in-out
+          print:hidden
           ${isOpen 
             ? 'w-64 translate-x-0 opacity-100 shadow-2xl lg:shadow-none' 
             : 'w-0 -translate-x-full lg:w-0 lg:p-0 opacity-0 pointer-events-none overflow-hidden border-r-0'
