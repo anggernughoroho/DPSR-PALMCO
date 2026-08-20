@@ -164,10 +164,12 @@ export function parsePsrGoogleSheetData(csvText: string): KudRecord[] {
       statusPencairan = 'Proses Bank Penampung';
     }
 
-    // Status Kemitraan (Strictly: Offtaker | Kemitraan | Revitbun)
+    // Status Kemitraan (Strictly: Offtaker | Kemitraan | Revitbun | Konversi Karet)
     let statusKemitraan: KudRecord['statusKemitraan'] = 'Offtaker';
     const sLower = statusKemitraanRaw.toLowerCase();
-    if (sLower.includes('revitbun') || sLower.includes('revitalisasi')) {
+    if (sLower.includes('konversi') || sLower.includes('karet')) {
+      statusKemitraan = 'Konversi Karet';
+    } else if (sLower.includes('revitbun') || sLower.includes('revitalisasi')) {
       statusKemitraan = 'Revitbun';
     } else if (sLower.includes('kemitraan') || sLower.includes('single') || sLower.includes('manajemen') || sLower.includes('agro')) {
       statusKemitraan = 'Kemitraan';

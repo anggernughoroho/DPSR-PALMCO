@@ -113,6 +113,8 @@ export const KudDataTable: React.FC<KudDataTableProps> = ({
       case 'Revitbun':
       case 'Penyediaan Bibit & Agronomi':
         return <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-100 dark:bg-purple-950/80 text-purple-800 dark:text-purple-300 border border-purple-200 dark:border-purple-800">Revitbun</span>;
+      case 'Konversi Karet':
+        return <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 dark:bg-amber-950/80 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800">Konversi Karet</span>;
       default:
         return <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-slate-100 text-slate-700">{status}</span>;
     }

@@ -42,6 +42,7 @@ export const Topbar: React.FC<TopbarProps> = ({ isSidebarOpen = true, onToggleSi
 
   const tabLabels: Record<string, string> = {
     'dashboard': 'Dashboard Utama',
+    'highlight-progres': 'Highlight Progres',
     'map': 'Peta Sebaran GIS',
     'kud-list': 'Laporan Replanting KUD',
     'analytics': 'Manajemen Kemitraan',

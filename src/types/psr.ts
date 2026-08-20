@@ -10,7 +10,8 @@ export type RegionalType =
 export type StatusKemitraan = 
   | 'Offtaker' 
   | 'Kemitraan' 
-  | 'Revitbun';
+  | 'Revitbun'
+  | 'Konversi Karet';
 
 export type TahapanPSR = 
   | 'Sosialisasi & Usulan'
@@ -60,6 +61,7 @@ export interface KudRecord {
   statusKemitraan: StatusKemitraan;
   tahapanPsr: TahapanPSR;
   klasifikasiTanaman: KlasifikasiTanaman;
+  tahunUsulan?: number;
   tahunPerolehan: number; // Tahun KUD diperoleh bermitra / MoU
   tahunTanamBatch: number;
   varietasBibit: string;
@@ -93,6 +95,16 @@ export interface KudRecord {
   };
 
   catatanMonitoring?: string;
+  catatanVerifikasi?: string;
+  kontakHp?: string;
+  rabPerHa?: number;
+  tahunTanam?: number;
+  umurTanaman?: number;
+  klasifikasiRaw?: string;
+  regionalRaw?: string;
+  statusKemitraanRaw?: string;
+  mapsLokasi?: string;
+  googleMapsUrl?: string;
   lastUpdated: string;
 }
 
@@ -123,6 +135,6 @@ export interface PsrKpiMetrics {
   rataRataProgresFisik: number;
 }
 
-export type ActiveTab = 'dashboard' | 'analytics' | 'map' | 'kud-list' | 'google-sheets' | 'reports';
+export type ActiveTab = 'dashboard' | 'highlight-progres' | 'analytics' | 'map' | 'kud-list' | 'google-sheets' | 'reports';
 
 export type UserRole = 'Direktur Utama PalmCo' | 'SEVP Operation' | 'Kepala Divisi PSR' | 'Tim Monitoring Regional' | 'Agronomy Specialist';

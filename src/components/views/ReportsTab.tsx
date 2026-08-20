@@ -125,9 +125,9 @@ export const ReportsTab: React.FC = () => {
     });
   }, [activeDataset]);
 
-  // Partnership model analysis (Offtaker, Kemitraan, Revitbun)
+  // Partnership model analysis (Offtaker, Kemitraan, Revitbun, Konversi Karet)
   const partnershipBreakdown = useMemo(() => {
-    const models: ('Offtaker' | 'Kemitraan' | 'Revitbun')[] = ['Offtaker', 'Kemitraan', 'Revitbun'];
+    const models: ('Offtaker' | 'Kemitraan' | 'Revitbun' | 'Konversi Karet')[] = ['Offtaker', 'Kemitraan', 'Revitbun', 'Konversi Karet'];
     const totalLuas = currentMetrics.luasRekomtek || 1;
     const totalKud = currentMetrics.totalKud || 1;
 
@@ -470,9 +470,9 @@ export const ReportsTab: React.FC = () => {
           <div className="report-section space-y-2">
             <div className="flex items-center justify-between border-b-2 border-slate-200 dark:border-slate-700 pb-1">
               <h3 className="text-xs font-black uppercase tracking-wider text-slate-900 dark:text-slate-100">
-                II. Capaian Berdasarkan 3 Model Kemitraan PSR
+                II. Capaian Berdasarkan 4 Model Kemitraan PSR
               </h3>
-              <span className="text-[10px] text-slate-500 font-medium">Offtaker • Kemitraan • Revitbun</span>
+              <span className="text-[10px] text-slate-500 font-medium">Offtaker • Kemitraan • Revitbun • Konversi Karet</span>
             </div>
 
             <table className="w-full text-xs text-left border border-slate-200 dark:border-slate-700">
@@ -492,7 +492,7 @@ export const ReportsTab: React.FC = () => {
                   <tr key={p.model} className="hover:bg-slate-50/50">
                     <td className="py-1.5 px-3 font-bold text-slate-900 dark:text-white">
                       <span className={`inline-block w-2 h-2 rounded-full mr-1.5 ${
-                        p.model === 'Offtaker' ? 'bg-blue-500' : p.model === 'Kemitraan' ? 'bg-emerald-600' : 'bg-purple-500'
+                        p.model === 'Offtaker' ? 'bg-blue-500' : p.model === 'Kemitraan' ? 'bg-emerald-600' : p.model === 'Revitbun' ? 'bg-purple-500' : 'bg-amber-500'
                       }`} />
                       Model {p.model}
                     </td>

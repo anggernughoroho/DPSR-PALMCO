@@ -7,6 +7,7 @@ import { MapViewTab } from './components/views/MapViewTab';
 import { KudTableTab } from './components/views/KudTableTab';
 import { AnalyticsTab } from './components/views/AnalyticsTab';
 import { ReportsTab } from './components/views/ReportsTab';
+import { HighlightProgresTab } from './components/views/HighlightProgresTab';
 import { KudDetailModal } from './components/modals/KudDetailModal';
 import { KudFormModal } from './components/modals/KudFormModal';
 import { GoogleSheetsSyncModal } from './components/modals/GoogleSheetsSyncModal';
@@ -26,6 +27,8 @@ const DashboardContent: React.FC = () => {
     switch (activeTab) {
       case 'dashboard':
         return <OverviewView />;
+      case 'highlight-progres':
+        return <HighlightProgresTab />;
       case 'map':
         return <MapViewTab />;
       case 'kud-list':

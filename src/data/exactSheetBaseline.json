@@ -1,0 +1,2381 @@
+[
+  {
+    "id": "pendataan",
+    "no": 1,
+    "tahapan": "Pendataan Luasan Petani/KUD",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 1439.5,
+          "rkap": 990,
+          "persen": 145.4
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 115.2
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 574.7,
+          "rkap": 1040,
+          "persen": 55.3
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 41
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 0,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 4398.9,
+          "rkap": 4500,
+          "persen": 97.8
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 97.8
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 600,
+          "persen": 41.9
+        },
+        "sdBulanIni": {
+          "realisasi": 3132,
+          "rkap": 2794,
+          "persen": 112.1
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 74.6
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 652,
+          "persen": 37.2
+        },
+        "sdBulanIni": {
+          "realisasi": 3109.6,
+          "rkap": 3350,
+          "persen": 92.8
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 64.8
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 125,
+          "persen": 249.9
+        },
+        "sdBulanIni": {
+          "realisasi": 620.7,
+          "rkap": 1200,
+          "persen": 51.7
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 41.4
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 180,
+          "persen": 285.1
+        },
+        "sdBulanIni": {
+          "realisasi": 1404.8,
+          "rkap": 1240,
+          "persen": 113.3
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 82.6
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 100,
+          "persen": 230.9
+        },
+        "sdBulanIni": {
+          "realisasi": 684.5,
+          "rkap": 1110,
+          "persen": 61.7
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 50.7
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 65,
+          "rkap": 70,
+          "persen": 92.8
+        },
+        "sdBulanIni": {
+          "realisasi": 913,
+          "rkap": 955,
+          "persen": 95.6
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 78.2
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 80,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 459.8,
+          "rkap": 560,
+          "persen": 82.1
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 65.7
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1615.5,
+          "rkap": 2207,
+          "persen": 73.2
+        },
+        "sdBulanIni": {
+          "realisasi": 16737.5,
+          "rkap": 17739,
+          "persen": 94.4
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 74.2
+        }
+      }
+    }
+  },
+  {
+    "id": "titik_koordinat",
+    "no": 2,
+    "tahapan": "Pengambilan Titik Koordinat",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 1439.5,
+          "rkap": 990,
+          "persen": 145.4
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 115.2
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 561.4,
+          "rkap": 1040,
+          "persen": 54
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 40.1
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 0,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 4109.7,
+          "rkap": 4500,
+          "persen": 91.3
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 91.3
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 600,
+          "persen": 41.9
+        },
+        "sdBulanIni": {
+          "realisasi": 2002.9,
+          "rkap": 2794,
+          "persen": 71.7
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 47.7
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 652,
+          "persen": 37.2
+        },
+        "sdBulanIni": {
+          "realisasi": 3049.6,
+          "rkap": 3350,
+          "persen": 91
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 63.5
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 125,
+          "persen": 249.9
+        },
+        "sdBulanIni": {
+          "realisasi": 686.5,
+          "rkap": 1200,
+          "persen": 57.2
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 45.8
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 180,
+          "persen": 285.1
+        },
+        "sdBulanIni": {
+          "realisasi": 1387.5,
+          "rkap": 1240,
+          "persen": 111.9
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 81.6
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 100,
+          "persen": 230.9
+        },
+        "sdBulanIni": {
+          "realisasi": 684.5,
+          "rkap": 1110,
+          "persen": 61.7
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 50.7
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 60,
+          "rkap": 70,
+          "persen": 85.7
+        },
+        "sdBulanIni": {
+          "realisasi": 119,
+          "rkap": 1015,
+          "persen": 11.7
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 10.2
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 80,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 498.1,
+          "rkap": 560,
+          "persen": 88.9
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 71.2
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1610.5,
+          "rkap": 2207,
+          "persen": 73
+        },
+        "sdBulanIni": {
+          "realisasi": 14538.6,
+          "rkap": 17799,
+          "persen": 81.7
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 64.4
+        }
+      }
+    }
+  },
+  {
+    "id": "verif_permentan",
+    "no": 3,
+    "tahapan": "Verifikasi Dokumen sesuai Permentan 05/2025",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 1439.5,
+          "rkap": 968,
+          "persen": 148.7
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 115.2
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 249.5,
+          "rkap": 200,
+          "persen": 124.7
+        },
+        "sdBulanIni": {
+          "realisasi": 561.4,
+          "rkap": 1040,
+          "persen": 54
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 40.1
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 410,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 3310.1,
+          "rkap": 3378,
+          "persen": 98
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 73.6
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 280,
+          "persen": 89.7
+        },
+        "sdBulanIni": {
+          "realisasi": 2002.9,
+          "rkap": 2344,
+          "persen": 85.4
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 47.7
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 327,
+          "persen": 74.2
+        },
+        "sdBulanIni": {
+          "realisasi": 2983.6,
+          "rkap": 1594,
+          "persen": 187.2
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 62.2
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 160,
+          "persen": 195.2
+        },
+        "sdBulanIni": {
+          "realisasi": 529,
+          "rkap": 700,
+          "persen": 75.6
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 35.3
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 180,
+          "persen": 285.1
+        },
+        "sdBulanIni": {
+          "realisasi": 1337,
+          "rkap": 680,
+          "persen": 196.6
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 78.6
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 90,
+          "persen": 256.6
+        },
+        "sdBulanIni": {
+          "realisasi": 684.5,
+          "rkap": 760,
+          "persen": 90.1
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 50.7
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 60,
+          "rkap": 69,
+          "persen": 86.9
+        },
+        "sdBulanIni": {
+          "realisasi": 119,
+          "rkap": 909,
+          "persen": 13.1
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 10.2
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 40,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 409.8,
+          "rkap": 240,
+          "persen": 170.7
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 58.5
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1859.9,
+          "rkap": 1956,
+          "persen": 95.1
+        },
+        "sdBulanIni": {
+          "realisasi": 13376.8,
+          "rkap": 12613,
+          "persen": 106.1
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 59.3
+        }
+      }
+    }
+  },
+  {
+    "id": "membuat_rab",
+    "no": 4,
+    "tahapan": "Membuat RAB",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 1439.5,
+          "rkap": 990,
+          "persen": 145.4
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 115.2
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 249.5,
+          "rkap": 200,
+          "persen": 124.7
+        },
+        "sdBulanIni": {
+          "realisasi": 561.4,
+          "rkap": 1040,
+          "persen": 54
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 40.1
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 410,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 3310.1,
+          "rkap": 3378,
+          "persen": 98
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 73.6
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 280,
+          "persen": 89.7
+        },
+        "sdBulanIni": {
+          "realisasi": 2002.9,
+          "rkap": 2344,
+          "persen": 85.4
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 47.7
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 654,
+          "persen": 37.1
+        },
+        "sdBulanIni": {
+          "realisasi": 2983.6,
+          "rkap": 3188,
+          "persen": 93.6
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 62.2
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 160,
+          "persen": 195.2
+        },
+        "sdBulanIni": {
+          "realisasi": 536,
+          "rkap": 700,
+          "persen": 76.6
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 35.7
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 180,
+          "persen": 285.1
+        },
+        "sdBulanIni": {
+          "realisasi": 1326,
+          "rkap": 680,
+          "persen": 195
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 78
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 90,
+          "persen": 256.6
+        },
+        "sdBulanIni": {
+          "realisasi": 684.5,
+          "rkap": 760,
+          "persen": 90.1
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 50.7
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 60,
+          "rkap": 69,
+          "persen": 86.9
+        },
+        "sdBulanIni": {
+          "realisasi": 119,
+          "rkap": 909,
+          "persen": 13.1
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 10.2
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 40,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 409.8,
+          "rkap": 240,
+          "persen": 170.7
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 58.5
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1859.9,
+          "rkap": 2283,
+          "persen": 81.5
+        },
+        "sdBulanIni": {
+          "realisasi": 13372.8,
+          "rkap": 14229,
+          "persen": 94
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 59.3
+        }
+      }
+    }
+  },
+  {
+    "id": "portal_psr",
+    "no": 5,
+    "tahapan": "Pendaftaran melalui Portal PSR Online",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 1209.5,
+          "rkap": 990,
+          "persen": 122.2
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 96.8
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 249.5,
+          "rkap": 200,
+          "persen": 124.7
+        },
+        "sdBulanIni": {
+          "realisasi": 561.4,
+          "rkap": 1040,
+          "persen": 54
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 40.1
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 410,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 3310.1,
+          "rkap": 3378,
+          "persen": 98
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 73.6
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 280,
+          "persen": 89.7
+        },
+        "sdBulanIni": {
+          "realisasi": 1957.6,
+          "rkap": 2194,
+          "persen": 89.2
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 46.6
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 358.7,
+          "rkap": 575,
+          "persen": 62.4
+        },
+        "sdBulanIni": {
+          "realisasi": 2959.9,
+          "rkap": 3282,
+          "persen": 90.2
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 61.7
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 160,
+          "persen": 195.2
+        },
+        "sdBulanIni": {
+          "realisasi": 601.9,
+          "rkap": 700,
+          "persen": 86
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 40.1
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 180,
+          "persen": 285.1
+        },
+        "sdBulanIni": {
+          "realisasi": 1254.2,
+          "rkap": 680,
+          "persen": 184.4
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 73.8
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 90,
+          "persen": 256.6
+        },
+        "sdBulanIni": {
+          "realisasi": 684.5,
+          "rkap": 760,
+          "persen": 90.1
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 50.7
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 60,
+          "rkap": 69,
+          "persen": 86.9
+        },
+        "sdBulanIni": {
+          "realisasi": 119,
+          "rkap": 909,
+          "persen": 13.1
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 10.2
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 40,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 409.8,
+          "rkap": 240,
+          "persen": 170.7
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 58.5
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1975.9,
+          "rkap": 2204,
+          "persen": 89.7
+        },
+        "sdBulanIni": {
+          "realisasi": 13067.8,
+          "rkap": 14173,
+          "persen": 92.2
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 57.9
+        }
+      }
+    }
+  },
+  {
+    "id": "verif_dokumen",
+    "no": 6,
+    "tahapan": "Verifikasi dokumen",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 1209.5,
+          "rkap": 964,
+          "persen": 125.5
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 96.8
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 312,
+          "rkap": 1040,
+          "persen": 30
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 22.3
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 750,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 3310.1,
+          "rkap": 3172,
+          "persen": 104.4
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 73.6
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 254,
+          "persen": 98.9
+        },
+        "sdBulanIni": {
+          "realisasi": 2002.9,
+          "rkap": 2144,
+          "persen": 93.4
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 47.7
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 404.4,
+          "rkap": 575,
+          "persen": 70.3
+        },
+        "sdBulanIni": {
+          "realisasi": 2672.3,
+          "rkap": 3282,
+          "persen": 81.4
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 55.7
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 160,
+          "persen": 195.2
+        },
+        "sdBulanIni": {
+          "realisasi": 624.8,
+          "rkap": 700,
+          "persen": 89.3
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 41.7
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 180,
+          "persen": 285.1
+        },
+        "sdBulanIni": {
+          "realisasi": 1183.3,
+          "rkap": 680,
+          "persen": 174
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 69.6
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 90,
+          "persen": 256.6
+        },
+        "sdBulanIni": {
+          "realisasi": 367.8,
+          "rkap": 760,
+          "persen": 48.4
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 27.2
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 60,
+          "rkap": 69,
+          "persen": 86.9
+        },
+        "sdBulanIni": {
+          "realisasi": 119,
+          "rkap": 909,
+          "persen": 13.1
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 10.2
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 40,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 409.8,
+          "rkap": 240,
+          "persen": 170.7
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 58.5
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1772,
+          "rkap": 2518,
+          "persen": 70.4
+        },
+        "sdBulanIni": {
+          "realisasi": 12211.3,
+          "rkap": 13891,
+          "persen": 87.9
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 54.1
+        }
+      }
+    }
+  },
+  {
+    "id": "verif_lapangan",
+    "no": 7,
+    "tahapan": "Verifikasi lapangan",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 1209.5,
+          "rkap": 968,
+          "persen": 125
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 96.8
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 312,
+          "rkap": 1040,
+          "persen": 30
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 22.3
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 920,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 3051.1,
+          "rkap": 3120,
+          "persen": 97.8
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 67.8
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 200,
+          "persen": 125.6
+        },
+        "sdBulanIni": {
+          "realisasi": 2002.9,
+          "rkap": 1940,
+          "persen": 103.2
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 47.7
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 404.4,
+          "rkap": 561,
+          "persen": 72.1
+        },
+        "sdBulanIni": {
+          "realisasi": 2672.3,
+          "rkap": 3120,
+          "persen": 85.6
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 55.7
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 160,
+          "persen": 195.2
+        },
+        "sdBulanIni": {
+          "realisasi": 624.8,
+          "rkap": 700,
+          "persen": 89.3
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 41.7
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 180,
+          "persen": 285.1
+        },
+        "sdBulanIni": {
+          "realisasi": 1059.7,
+          "rkap": 680,
+          "persen": 155.8
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 62.3
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 90,
+          "persen": 256.6
+        },
+        "sdBulanIni": {
+          "realisasi": 367.8,
+          "rkap": 760,
+          "persen": 48.4
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 27.2
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 60,
+          "rkap": 69,
+          "persen": 86.9
+        },
+        "sdBulanIni": {
+          "realisasi": 60,
+          "rkap": 909,
+          "persen": 6.6
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 5.1
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 40,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 409.8,
+          "rkap": 240,
+          "persen": 170.7
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 58.5
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1772,
+          "rkap": 2620,
+          "persen": 67.6
+        },
+        "sdBulanIni": {
+          "realisasi": 11769.7,
+          "rkap": 13477,
+          "persen": 87.3
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 52.2
+        }
+      }
+    }
+  },
+  {
+    "id": "rekomtek",
+    "no": 8,
+    "tahapan": "Rekomtek",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 180,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 929.5,
+          "rkap": 654,
+          "persen": 142.1
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 74.4
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 100,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 189.5,
+          "rkap": 600,
+          "persen": 31.6
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 13.5
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 999.3,
+          "rkap": 200,
+          "persen": 499.7
+        },
+        "sdBulanIni": {
+          "realisasi": 2905.4,
+          "rkap": 2070,
+          "persen": 140.4
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 64.6
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 220,
+          "persen": 114.2
+        },
+        "sdBulanIni": {
+          "realisasi": 1690.3,
+          "rkap": 1736,
+          "persen": 97.4
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 40.2
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 200,
+          "persen": 121.4
+        },
+        "sdBulanIni": {
+          "realisasi": 2510.7,
+          "rkap": 1744,
+          "persen": 144
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 52.3
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 80,
+          "persen": 390.4
+        },
+        "sdBulanIni": {
+          "realisasi": 453.9,
+          "rkap": 535,
+          "persen": 84.8
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 30.3
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 80,
+          "persen": 641.5
+        },
+        "sdBulanIni": {
+          "realisasi": 1059.7,
+          "rkap": 550,
+          "persen": 192.7
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 62.3
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 417.1,
+          "rkap": 90,
+          "persen": 463.5
+        },
+        "sdBulanIni": {
+          "realisasi": 554,
+          "rkap": 700,
+          "persen": 79.1
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 41
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 69,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 0,
+          "rkap": 849,
+          "persen": 0
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 0
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 57.5,
+          "rkap": 40,
+          "persen": 143.6
+        },
+        "sdBulanIni": {
+          "realisasi": 334.4,
+          "rkap": 240,
+          "persen": 139.3
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 47.8
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 2793.5,
+          "rkap": 1259,
+          "persen": 221.9
+        },
+        "sdBulanIni": {
+          "realisasi": 10627.5,
+          "rkap": 9678,
+          "persen": 109.8
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 47.1
+        }
+      }
+    }
+  },
+  {
+    "id": "pencairan_dana",
+    "no": 9,
+    "tahapan": "Pencairan Dana dari BPDP",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 180,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 929.5,
+          "rkap": 654,
+          "persen": 142.1
+        },
+        "setahun": {
+          "rkap": 1250,
+          "persen": 74.4
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 100,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 189.5,
+          "rkap": 620,
+          "persen": 30.6
+        },
+        "setahun": {
+          "rkap": 1400,
+          "persen": 13.5
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 1765.2,
+          "rkap": 1984,
+          "persen": 89
+        },
+        "setahun": {
+          "rkap": 4500,
+          "persen": 39.2
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 220,
+          "persen": 114.2
+        },
+        "sdBulanIni": {
+          "realisasi": 1579,
+          "rkap": 1736,
+          "persen": 91
+        },
+        "setahun": {
+          "rkap": 4200,
+          "persen": 37.6
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 200,
+          "persen": 121.4
+        },
+        "sdBulanIni": {
+          "realisasi": 2510.7,
+          "rkap": 1292,
+          "persen": 194.3
+        },
+        "setahun": {
+          "rkap": 4800,
+          "persen": 52.3
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 80,
+          "persen": 390.4
+        },
+        "sdBulanIni": {
+          "realisasi": 476.9,
+          "rkap": 535,
+          "persen": 89.1
+        },
+        "setahun": {
+          "rkap": 1500,
+          "persen": 31.8
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 80,
+          "persen": 641.5
+        },
+        "sdBulanIni": {
+          "realisasi": 1059.7,
+          "rkap": 550,
+          "persen": 192.7
+        },
+        "setahun": {
+          "rkap": 1700,
+          "persen": 62.3
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 90,
+          "persen": 256.6
+        },
+        "sdBulanIni": {
+          "realisasi": 367.8,
+          "rkap": 700,
+          "persen": 52.5
+        },
+        "setahun": {
+          "rkap": 1350,
+          "persen": 27.2
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 69,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 0,
+          "rkap": 829,
+          "persen": 0
+        },
+        "setahun": {
+          "rkap": 1168,
+          "persen": 0
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 40,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 277,
+          "rkap": 240,
+          "persen": 115.4
+        },
+        "setahun": {
+          "rkap": 700,
+          "persen": 39.6
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1550.5,
+          "rkap": 1259,
+          "persen": 123.2
+        },
+        "sdBulanIni": {
+          "realisasi": 9155.2,
+          "rkap": 9140,
+          "persen": 100.2
+        },
+        "setahun": {
+          "rkap": 22568,
+          "persen": 40.6
+        }
+      }
+    }
+  },
+  {
+    "id": "spj_peremajaan",
+    "no": 10,
+    "tahapan": "SPJ Pelaksanaan Peremajaan",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 60,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 929.5,
+          "rkap": 460,
+          "persen": 202.1
+        },
+        "setahun": {
+          "rkap": 688,
+          "persen": 135.1
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 48,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 65.2,
+          "rkap": 446,
+          "persen": 14.6
+        },
+        "setahun": {
+          "rkap": 770,
+          "persen": 8.5
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 180,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 254.7,
+          "rkap": 818,
+          "persen": 31.1
+        },
+        "setahun": {
+          "rkap": 1728,
+          "persen": 14.7
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 433.2,
+          "rkap": 240,
+          "persen": 180.5
+        },
+        "sdBulanIni": {
+          "realisasi": 1297.9,
+          "rkap": 626,
+          "persen": 207.3
+        },
+        "setahun": {
+          "rkap": 2310,
+          "persen": 56.2
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 300,
+          "persen": 80.9
+        },
+        "sdBulanIni": {
+          "realisasi": 2510.7,
+          "rkap": 799,
+          "persen": 314.2
+        },
+        "setahun": {
+          "rkap": 2640,
+          "persen": 95.1
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 81,
+          "persen": 385.6
+        },
+        "sdBulanIni": {
+          "realisasi": 476.9,
+          "rkap": 392,
+          "persen": 121.7
+        },
+        "setahun": {
+          "rkap": 824,
+          "persen": 57.9
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 513.2,
+          "rkap": 84,
+          "persen": 611
+        },
+        "sdBulanIni": {
+          "realisasi": 1059.7,
+          "rkap": 365,
+          "persen": 290.3
+        },
+        "setahun": {
+          "rkap": 935,
+          "persen": 113.3
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 80,
+          "persen": 288.7
+        },
+        "sdBulanIni": {
+          "realisasi": 367.8,
+          "rkap": 381,
+          "persen": 96.5
+        },
+        "setahun": {
+          "rkap": 743,
+          "persen": 49.5
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 52,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 0,
+          "rkap": 486,
+          "persen": 0
+        },
+        "setahun": {
+          "rkap": 642,
+          "persen": 0
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 20,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 277,
+          "rkap": 105,
+          "persen": 263.8
+        },
+        "setahun": {
+          "rkap": 385,
+          "persen": 71.9
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1732.5,
+          "rkap": 1145,
+          "persen": 151.3
+        },
+        "sdBulanIni": {
+          "realisasi": 7239.3,
+          "rkap": 4878,
+          "persen": 148.4
+        },
+        "setahun": {
+          "rkap": 11665,
+          "persen": 62.1
+        }
+      }
+    }
+  },
+  {
+    "id": "tumbang_pohon",
+    "no": 11,
+    "tahapan": "Penumbangan Pohon",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 88.3,
+          "rkap": 23,
+          "persen": 383.9
+        },
+        "sdBulanIni": {
+          "realisasi": 929.5,
+          "rkap": 201,
+          "persen": 462.5
+        },
+        "setahun": {
+          "rkap": 378,
+          "persen": 245.9
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 29,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 65.2,
+          "rkap": 230,
+          "persen": 28.3
+        },
+        "setahun": {
+          "rkap": 424,
+          "persen": 15.4
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 100,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 254.7,
+          "rkap": 638,
+          "persen": 39.9
+        },
+        "setahun": {
+          "rkap": 1398,
+          "persen": 18.2
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 433.2,
+          "rkap": 141,
+          "persen": 307.3
+        },
+        "sdBulanIni": {
+          "realisasi": 1297.9,
+          "rkap": 261,
+          "persen": 497.3
+        },
+        "setahun": {
+          "rkap": 1271,
+          "persen": 102.1
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 200,
+          "persen": 121.4
+        },
+        "sdBulanIni": {
+          "realisasi": 2510.7,
+          "rkap": 402,
+          "persen": 624.6
+        },
+        "setahun": {
+          "rkap": 1452,
+          "persen": 172.9
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 314.3,
+          "rkap": 36,
+          "persen": 873.1
+        },
+        "sdBulanIni": {
+          "realisasi": 403.6,
+          "rkap": 195,
+          "persen": 207
+        },
+        "setahun": {
+          "rkap": 454,
+          "persen": 88.9
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 50,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 546.5,
+          "rkap": 172,
+          "persen": 317.7
+        },
+        "setahun": {
+          "rkap": 514,
+          "persen": 106.3
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 29,
+          "persen": 796.3
+        },
+        "sdBulanIni": {
+          "realisasi": 367.8,
+          "rkap": 206,
+          "persen": 178.5
+        },
+        "setahun": {
+          "rkap": 408,
+          "persen": 90.1
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 27,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 0,
+          "rkap": 259,
+          "persen": 0
+        },
+        "setahun": {
+          "rkap": 353,
+          "persen": 0
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 16,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 277,
+          "rkap": 64,
+          "persen": 432.7
+        },
+        "setahun": {
+          "rkap": 212,
+          "persen": 130.6
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1309.6,
+          "rkap": 651,
+          "persen": 201.2
+        },
+        "sdBulanIni": {
+          "realisasi": 6652.8,
+          "rkap": 2628,
+          "persen": 253.2
+        },
+        "setahun": {
+          "rkap": 6864,
+          "persen": 96.9
+        }
+      }
+    }
+  },
+  {
+    "id": "olah_tanah",
+    "no": 12,
+    "tahapan": "Pengolahan tanah",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 88.3,
+          "rkap": 23,
+          "persen": 383.9
+        },
+        "sdBulanIni": {
+          "realisasi": 929.5,
+          "rkap": 201,
+          "persen": 462.5
+        },
+        "setahun": {
+          "rkap": 378,
+          "persen": 245.9
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 29,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 65.2,
+          "rkap": 230,
+          "persen": 28.3
+        },
+        "setahun": {
+          "rkap": 424,
+          "persen": 15.4
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 200,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 254.7,
+          "rkap": 538,
+          "persen": 47.3
+        },
+        "setahun": {
+          "rkap": 1398,
+          "persen": 18.2
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 141,
+          "persen": 178.2
+        },
+        "sdBulanIni": {
+          "realisasi": 1115.9,
+          "rkap": 261,
+          "persen": 427.5
+        },
+        "setahun": {
+          "rkap": 1271,
+          "persen": 87.8
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 200,
+          "persen": 121.4
+        },
+        "sdBulanIni": {
+          "realisasi": 2510.7,
+          "rkap": 452,
+          "persen": 555.5
+        },
+        "setahun": {
+          "rkap": 1452,
+          "persen": 172.9
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 36,
+          "persen": 867.6
+        },
+        "sdBulanIni": {
+          "realisasi": 381.6,
+          "rkap": 195,
+          "persen": 195.7
+        },
+        "setahun": {
+          "rkap": 454,
+          "persen": 84.1
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 50,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 546.5,
+          "rkap": 172,
+          "persen": 317.7
+        },
+        "setahun": {
+          "rkap": 514,
+          "persen": 106.3
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 92.4,
+          "rkap": 29,
+          "persen": 318.5
+        },
+        "sdBulanIni": {
+          "realisasi": 229.2,
+          "rkap": 206,
+          "persen": 111.3
+        },
+        "setahun": {
+          "rkap": 408,
+          "persen": 56.2
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 27,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 0,
+          "rkap": 259,
+          "persen": 0
+        },
+        "setahun": {
+          "rkap": 353,
+          "persen": 0
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 16,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 277,
+          "rkap": 64,
+          "persen": 432.7
+        },
+        "setahun": {
+          "rkap": 212,
+          "persen": 130.6
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 987,
+          "rkap": 787,
+          "persen": 125.4
+        },
+        "sdBulanIni": {
+          "realisasi": 6310.3,
+          "rkap": 2578,
+          "persen": 244.8
+        },
+        "setahun": {
+          "rkap": 6864,
+          "persen": 91.9
+        }
+      }
+    }
+  },
+  {
+    "id": "penanaman",
+    "no": 13,
+    "tahapan": "Penanaman",
+    "regionals": {
+      "REG_I": {
+        "bulanIni": {
+          "realisasi": 105.6,
+          "rkap": 23,
+          "persen": 459.1
+        },
+        "sdBulanIni": {
+          "realisasi": 840.9,
+          "rkap": 201,
+          "persen": 418.3
+        },
+        "setahun": {
+          "rkap": 378,
+          "persen": 222.4
+        }
+      },
+      "REG_II": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 29,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 65.2,
+          "rkap": 230,
+          "persen": 28.3
+        },
+        "setahun": {
+          "rkap": 424,
+          "persen": 15.4
+        }
+      },
+      "REG_III": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 108,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 254.7,
+          "rkap": 414,
+          "persen": 61.5
+        },
+        "setahun": {
+          "rkap": 1361,
+          "persen": 18.7
+        }
+      },
+      "REG_IV": {
+        "bulanIni": {
+          "realisasi": 251.2,
+          "rkap": 141,
+          "persen": 178.2
+        },
+        "sdBulanIni": {
+          "realisasi": 1115.9,
+          "rkap": 261,
+          "persen": 427.5
+        },
+        "setahun": {
+          "rkap": 1271,
+          "persen": 87.8
+        }
+      },
+      "REG_V": {
+        "bulanIni": {
+          "realisasi": 242.8,
+          "rkap": 200,
+          "persen": 121.4
+        },
+        "sdBulanIni": {
+          "realisasi": 2510.7,
+          "rkap": 452,
+          "persen": 555.5
+        },
+        "setahun": {
+          "rkap": 450,
+          "persen": 557.9
+        }
+      },
+      "REG_VI": {
+        "bulanIni": {
+          "realisasi": 312.3,
+          "rkap": 36,
+          "persen": 867.6
+        },
+        "sdBulanIni": {
+          "realisasi": 381.6,
+          "rkap": 195,
+          "persen": 195.7
+        },
+        "setahun": {
+          "rkap": 454,
+          "persen": 84.1
+        }
+      },
+      "REG_VII": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 50,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 546.5,
+          "rkap": 172,
+          "persen": 317.7
+        },
+        "setahun": {
+          "rkap": 514,
+          "persen": 106.3
+        }
+      },
+      "REG_II_DRUS": {
+        "bulanIni": {
+          "realisasi": 230.9,
+          "rkap": 29,
+          "persen": 796.3
+        },
+        "sdBulanIni": {
+          "realisasi": 367.8,
+          "rkap": 206,
+          "persen": 178.5
+        },
+        "setahun": {
+          "rkap": 408,
+          "persen": 90.1
+        }
+      },
+      "REG_I_DJABA": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 27,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 0,
+          "rkap": 259,
+          "persen": 0
+        },
+        "setahun": {
+          "rkap": 353,
+          "persen": 0
+        }
+      },
+      "REG_II_DSUL": {
+        "bulanIni": {
+          "realisasi": 0,
+          "rkap": 16,
+          "persen": 0
+        },
+        "sdBulanIni": {
+          "realisasi": 277,
+          "rkap": 64,
+          "persen": 432.7
+        },
+        "setahun": {
+          "rkap": 212,
+          "persen": 130.6
+        }
+      },
+      "KONSOLIDASI": {
+        "bulanIni": {
+          "realisasi": 1142.9,
+          "rkap": 659,
+          "persen": 173.4
+        },
+        "sdBulanIni": {
+          "realisasi": 6360.1,
+          "rkap": 2454,
+          "persen": 259.2
+        },
+        "setahun": {
+          "rkap": 5825,
+          "persen": 109.2
+        }
+      }
+    }
+  }
+]

@@ -8,6 +8,7 @@ import {
   Layers, 
   FileSpreadsheet, 
   FileText, 
+  TrendingUp,
   PlusCircle, 
   Building2,
   PanelLeftClose,
@@ -24,6 +25,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
 
   const navItems: { id: ActiveTab; label: string; icon: React.ElementType; badge?: string }[] = [
     { id: 'dashboard', label: 'Dashboard Utama', icon: LayoutDashboard },
+    { id: 'highlight-progres', label: 'Highlight Progres', icon: TrendingUp, badge: 'RKO' },
     { id: 'map', label: 'Peta Sebaran KUD', icon: MapPin, badge: 'GIS' },
     { id: 'kud-list', label: 'Laporan Replanting', icon: Layers, badge: kudList.length.toString() },
     { id: 'analytics', label: 'Manajemen Kemitraan', icon: BarChart3 },

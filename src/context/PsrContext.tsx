@@ -89,7 +89,7 @@ const DEFAULT_FILTERS: PsrFilterState = {
   statusPencairan: 'ALL'
 };
 
-const STORAGE_KEY = 'PTPN4_PSR_MONITORING_DATA_V5_REG_1_7';
+const STORAGE_KEY = 'PTPN4_PSR_MONITORING_DATA_V6_LOOKER_PIVOT';
 const THEME_KEY = 'PTPN4_PSR_THEME';
 
 const PsrContext = createContext<PsrContextType | undefined>(undefined);
@@ -102,11 +102,13 @@ export const PsrProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 50) {
-          // Sanitize statusKemitraan to strictly Offtaker | Kemitraan | Revitbun and populate tahunPerolehan
+          // Sanitize statusKemitraan to strictly Offtaker | Kemitraan | Revitbun | Konversi Karet
           return parsed.map((item, idx) => {
-            let kemitraan: 'Offtaker' | 'Kemitraan' | 'Revitbun' = 'Offtaker';
+            let kemitraan: 'Offtaker' | 'Kemitraan' | 'Revitbun' | 'Konversi Karet' = 'Offtaker';
             const sk = String(item.statusKemitraan || '');
-            if (sk === 'Revitbun' || sk.includes('Revitbun') || sk.includes('Bibit')) {
+            if (sk === 'Konversi Karet' || sk.includes('Konversi') || sk.includes('Karet')) {
+              kemitraan = 'Konversi Karet';
+            } else if (sk === 'Revitbun' || sk.includes('Revitbun') || sk.includes('Bibit')) {
               kemitraan = 'Revitbun';
             } else if (sk === 'Kemitraan' || sk.includes('Kemitraan') || sk.includes('Single')) {
               kemitraan = 'Kemitraan';

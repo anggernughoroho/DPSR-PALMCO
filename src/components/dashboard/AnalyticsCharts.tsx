@@ -45,6 +45,12 @@ export const AnalyticsCharts: React.FC = () => {
     let revitbunKk = 0;
     let revitbunTanam = 0;
 
+    let konversiKaretCount = 0;
+    let konversiKaretLuas = 0;
+    let konversiKaretDana = 0;
+    let konversiKaretKk = 0;
+    let konversiKaretTanam = 0;
+
     filteredKudList.forEach(k => {
       if (k.statusKemitraan === 'Offtaker') {
         offtakerCount += 1;
@@ -64,6 +70,12 @@ export const AnalyticsCharts: React.FC = () => {
         revitbunDana += k.totalNilaiPencairan;
         revitbunKk += k.jumlahKk;
         revitbunTanam += k.luasTanamHa;
+      } else if (k.statusKemitraan === 'Konversi Karet') {
+        konversiKaretCount += 1;
+        konversiKaretLuas += k.luasRekomtekHa;
+        konversiKaretDana += k.totalNilaiPencairan;
+        konversiKaretKk += k.jumlahKk;
+        konversiKaretTanam += k.luasTanamHa;
       }
     });
 
@@ -97,6 +109,15 @@ export const AnalyticsCharts: React.FC = () => {
         kk: revitbunKk,
         pctKud: (revitbunCount / totalKud) * 100,
         pctLuas: (revitbunLuas / totalLuas) * 100
+      },
+      konversiKaret: {
+        count: konversiKaretCount,
+        luas: konversiKaretLuas,
+        tanam: konversiKaretTanam,
+        dana: konversiKaretDana,
+        kk: konversiKaretKk,
+        pctKud: (konversiKaretCount / totalKud) * 100,
+        pctLuas: (konversiKaretLuas / totalLuas) * 100
       }
     };
   }, [filteredKudList, kpiMetrics]);
@@ -115,6 +136,7 @@ export const AnalyticsCharts: React.FC = () => {
       const offtakerCount = kudInYear.filter(k => k.statusKemitraan === 'Offtaker').length;
       const kemitraanCount = kudInYear.filter(k => k.statusKemitraan === 'Kemitraan').length;
       const revitbunCount = kudInYear.filter(k => k.statusKemitraan === 'Revitbun').length;
+      const konversiKaretCount = kudInYear.filter(k => k.statusKemitraan === 'Konversi Karet').length;
 
       return {
         year,
@@ -124,7 +146,8 @@ export const AnalyticsCharts: React.FC = () => {
         kkCount,
         offtakerCount,
         kemitraanCount,
-        revitbunCount
+        revitbunCount,
+        konversiKaretCount
       };
     });
 
@@ -683,7 +706,7 @@ export const AnalyticsCharts: React.FC = () => {
                 Persentase & Komposisi Model Kemitraan PSR
               </h3>
               <p className="text-xs text-slate-500 dark:text-slate-400">
-                Proporsi 3 Model Kemitraan Resmi PTPN IV: Offtaker, Kemitraan, dan Revitbun
+                Proporsi 4 Model Kemitraan Resmi PTPN IV: Offtaker, Kemitraan, Revitbun, dan Konversi Karet
               </p>
             </div>
           </div>
@@ -714,9 +737,13 @@ export const AnalyticsCharts: React.FC = () => {
               <span className="w-2.5 h-2.5 rounded-full bg-purple-500" />
               Revitbun ({partnershipAnalysis.revitbun.pctLuas.toFixed(1)}% Luas | {partnershipAnalysis.revitbun.pctKud.toFixed(1)}% KUD)
             </span>
+            <span className="text-amber-700 dark:text-amber-400 flex items-center gap-1.5">
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-500" />
+              Konversi Karet ({partnershipAnalysis.konversiKaret.pctLuas.toFixed(1)}% Luas | {partnershipAnalysis.konversiKaret.pctKud.toFixed(1)}% KUD)
+            </span>
           </div>
 
-          {/* 3-Segment Split Ratio Bar */}
+          {/* 4-Segment Split Ratio Bar */}
           <div className="w-full h-4 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden flex p-0.5 gap-0.5">
             <div 
               className="h-full bg-blue-500 rounded-l-full transition-all duration-700 hover:opacity-90 cursor-pointer"
@@ -731,16 +758,22 @@ export const AnalyticsCharts: React.FC = () => {
               title={`Kemitraan: ${partnershipAnalysis.kemitraan.luas.toFixed(2)} Ha`}
             />
             <div 
-              className="h-full bg-purple-500 rounded-r-full transition-all duration-700 hover:opacity-90 cursor-pointer"
+              className="h-full bg-purple-500 transition-all duration-700 hover:opacity-90 cursor-pointer"
               style={{ width: `${Math.max(partnershipAnalysis.revitbun.pctLuas, 2)}%` }}
               onClick={() => setFilter('statusKemitraan', 'Revitbun')}
               title={`Revitbun: ${partnershipAnalysis.revitbun.luas.toFixed(2)} Ha`}
             />
+            <div 
+              className="h-full bg-amber-500 rounded-r-full transition-all duration-700 hover:opacity-90 cursor-pointer"
+              style={{ width: `${Math.max(partnershipAnalysis.konversiKaret.pctLuas, 2)}%` }}
+              onClick={() => setFilter('statusKemitraan', 'Konversi Karet')}
+              title={`Konversi Karet: ${partnershipAnalysis.konversiKaret.luas.toFixed(2)} Ha`}
+            />
           </div>
         </div>
 
-        {/* Detailed 3 Comparison Cards (Offtaker, Kemitraan, Revitbun) */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
+        {/* Detailed 4 Comparison Cards (Offtaker, Kemitraan, Revitbun, Konversi Karet) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-1">
           {/* Card A: Offtaker */}
           <div 
             onClick={() => setFilter('statusKemitraan', filters.statusKemitraan === 'Offtaker' ? 'ALL' : 'Offtaker')}
@@ -755,16 +788,16 @@ export const AnalyticsCharts: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-blue-500" />
                   <h4 className="font-bold text-sm text-slate-900 dark:text-white">
-                    Model Offtaker
+                    Offtaker
                   </h4>
                 </div>
                 <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300 font-mono">
-                  {partnershipAnalysis.offtaker.pctLuas.toFixed(1)}% Luasan
+                  {partnershipAnalysis.offtaker.pctLuas.toFixed(1)}% Luas
                 </span>
               </div>
 
               <p className="text-xs text-slate-500 dark:text-slate-400 mb-3 leading-relaxed">
-                KUD mengelola operasional kebun mandiri dengan kepastian pasokan & pembelian hasil panen TBS oleh PKS PTPN IV PalmCo.
+                KUD mengelola operasional kebun mandiri dengan kepastian pasokan & pembelian TBS oleh PKS PalmCo.
               </p>
             </div>
 
@@ -812,16 +845,16 @@ export const AnalyticsCharts: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-emerald-600" />
                   <h4 className="font-bold text-sm text-slate-900 dark:text-white">
-                    Model Kemitraan
+                    Kemitraan
                   </h4>
                 </div>
                 <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-mono">
-                  {partnershipAnalysis.kemitraan.pctLuas.toFixed(1)}% Luasan
+                  {partnershipAnalysis.kemitraan.pctLuas.toFixed(1)}% Luas
                 </span>
               </div>
 
               <p className="text-xs text-slate-500 dark:text-slate-400 mb-3 leading-relaxed">
-                Kemitraan manajemen terpadu (Single Management) dengan pendampingan teknis, kultur teknis, dan agronomi standar PTPN IV.
+                Single Management dengan pendampingan teknis, kultur teknis, dan agronomi standar PTPN IV.
               </p>
             </div>
 
@@ -869,16 +902,16 @@ export const AnalyticsCharts: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-purple-500" />
                   <h4 className="font-bold text-sm text-slate-900 dark:text-white">
-                    Model Revitbun
+                    Revitbun
                   </h4>
                 </div>
                 <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300 font-mono">
-                  {partnershipAnalysis.revitbun.pctLuas.toFixed(1)}% Luasan
+                  {partnershipAnalysis.revitbun.pctLuas.toFixed(1)}% Luas
                 </span>
               </div>
 
               <p className="text-xs text-slate-500 dark:text-slate-400 mb-3 leading-relaxed">
-                Revitalisasi kebun rakyat intensif, pemulihan produktivitas tanaman, dan penyediaan bibit bersertifikat unggul DxP.
+                Revitalisasi kebun rakyat intensif, pemulihan produktivitas, dan bibit bersertifikat DxP.
               </p>
             </div>
 
@@ -907,6 +940,63 @@ export const AnalyticsCharts: React.FC = () => {
                 <span className="text-[11px] text-slate-500">Nilai Cair:</span>
                 <span className="font-bold text-purple-600 dark:text-purple-400 text-xs">
                   {formatIDR(partnershipAnalysis.revitbun.dana)}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Card D: Konversi Karet */}
+          <div 
+            onClick={() => setFilter('statusKemitraan', filters.statusKemitraan === 'Konversi Karet' ? 'ALL' : 'Konversi Karet')}
+            className={`p-4 rounded-xl border transition-all cursor-pointer flex flex-col justify-between ${
+              filters.statusKemitraan === 'Konversi Karet'
+                ? 'bg-amber-50/90 dark:bg-amber-950/40 border-amber-500 ring-2 ring-amber-500/40 shadow-sm'
+                : 'bg-slate-50 dark:bg-slate-800/60 border-slate-200 dark:border-slate-700 hover:border-amber-400'
+            }`}
+          >
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-amber-500" />
+                  <h4 className="font-bold text-sm text-slate-900 dark:text-white">
+                    Konversi Karet
+                  </h4>
+                </div>
+                <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 font-mono">
+                  {partnershipAnalysis.konversiKaret.pctLuas.toFixed(1)}% Luas
+                </span>
+              </div>
+
+              <p className="text-xs text-slate-500 dark:text-slate-400 mb-3 leading-relaxed">
+                Alih komoditi perkebunan dari eksisting tanaman karet rakyat menjadi perkebunan kelapa sawit produktif.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 gap-2 text-xs pt-2 border-t border-slate-200/80 dark:border-slate-700/80">
+              <div className="p-2 rounded bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
+                <span className="text-[10px] text-slate-400 uppercase font-semibold block">Total Luasan</span>
+                <span className="font-bold text-slate-900 dark:text-slate-100 text-sm">
+                  {formatHectare(partnershipAnalysis.konversiKaret.luas)}
+                </span>
+                <span className="text-[10px] text-amber-600 block mt-0.5">
+                  Tanam: {formatHectare(partnershipAnalysis.konversiKaret.tanam)}
+                </span>
+              </div>
+
+              <div className="p-2 rounded bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
+                <span className="text-[10px] text-slate-400 uppercase font-semibold block">KUD & Petani</span>
+                <span className="font-bold text-slate-900 dark:text-slate-100 text-sm">
+                  {partnershipAnalysis.konversiKaret.count} KUD
+                </span>
+                <span className="text-[10px] text-slate-500 block mt-0.5">
+                  {formatNumber(partnershipAnalysis.konversiKaret.kk)} KK
+                </span>
+              </div>
+
+              <div className="col-span-2 p-2 rounded bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 flex justify-between items-center">
+                <span className="text-[11px] text-slate-500">Nilai Cair:</span>
+                <span className="font-bold text-amber-600 dark:text-amber-400 text-xs">
+                  {formatIDR(partnershipAnalysis.konversiKaret.dana)}
                 </span>
               </div>
             </div>

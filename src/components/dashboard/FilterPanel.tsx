@@ -30,7 +30,7 @@ export const FilterPanel: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Quick Preset Filters
-  const applyPreset = (preset: 'all' | 'offtaker' | 'kemitraan' | 'revitbun' | 'rab60' | 'rab30' | 'cair' | 'tanam') => {
+  const applyPreset = (preset: 'all' | 'offtaker' | 'kemitraan' | 'revitbun' | 'konversi_karet' | 'rab60' | 'rab30' | 'cair' | 'tanam') => {
     resetFilters();
     if (preset === 'offtaker') {
       setFilter('statusKemitraan', 'Offtaker');
@@ -38,6 +38,8 @@ export const FilterPanel: React.FC = () => {
       setFilter('statusKemitraan', 'Kemitraan');
     } else if (preset === 'revitbun') {
       setFilter('statusKemitraan', 'Revitbun');
+    } else if (preset === 'konversi_karet') {
+      setFilter('statusKemitraan', 'Konversi Karet');
     } else if (preset === 'rab60') {
       setFilter('rabPerHa', '60000000');
     } else if (preset === 'rab30') {
@@ -109,6 +111,17 @@ export const FilterPanel: React.FC = () => {
             }`}
           >
             Revitbun
+          </button>
+
+          <button
+            onClick={() => applyPreset('konversi_karet')}
+            className={`text-[11px] px-2.5 py-1 rounded-md font-medium transition-all cursor-pointer ${
+              filters.statusKemitraan === 'Konversi Karet'
+                ? 'bg-amber-600 text-white font-semibold shadow-xs'
+                : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200'
+            }`}
+          >
+            Konversi Karet
           </button>
 
           <button
@@ -216,7 +229,7 @@ export const FilterPanel: React.FC = () => {
               filters.statusKemitraan !== 'ALL' ? 'border-emerald-500 bg-emerald-50/40 dark:bg-emerald-950/20 font-semibold' : 'border-slate-200 dark:border-slate-700'
             }`}
           >
-            <option value="ALL">Semua Model (3 Status)</option>
+            <option value="ALL">Semua Model ({KEMITRAAN_OPTIONS.length} Status)</option>
             {KEMITRAAN_OPTIONS.map(opt => (
               <option key={opt} value={opt}>
                 {opt}
